@@ -1,0 +1,323 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+#imagem_fundo1{
+    background: url("img/titulofundo.jpeg");
+   background-size: cover;
+   text-align: right;
+   padding: 0% 7% 20% 0%;
+
+}
+
+header{
+    background-color: #FFD700;
+    color: black;
+    height: 9%;
+    width: 100%;
+    position: fixed;
+    z-index: 10; 
+    
+    
+}
+
+#vicsite{
+    width: 7%;
+    position: absolute;
+    top: 2%;
+    margin-left: 2%;
+}
+
+#menu{
+
+float: right;
+margin-right: 5%;
+list-style:none ;
+margin: 0%;
+
+
+}
+
+li{
+    float: left;
+    padding: 12px 12px 12px 12px;
+    font-weight: 900;
+    color: black;
+    font-style: initial;
+ 
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+li:hover{
+
+    background-color: #D1B000;
+
+}
+
+h1{
+    font-size: 375%;
+    width: 100%;
+    padding-top: 15%;
+    margin: 0%;
+    text-shadow: 0.75px 0.75px orangered;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+h2{
+    color: orangered;
+    font-size: 150%;
+     font-style: italic;
+   
+}
+
+h3{
+    font-size: 160%
+}
+
+h4{
+    font-size: 120%
+}
+
+h5{
+    font-size: 120%;
+    font-weight: bold;
+    color: #414654;
+}
+
+#sub{
+
+    padding-right: 11%;
+
+}
+
+#ODS7{
+    border: 3px #414654 solid;
+    margin-right: 21%;
+    color: black;
+    text-shadow: 0.41px 0.41px orangered;
+    font-size: 100%;
+    padding: 1%;
+    
+}
+
+.botao:hover{
+        background-color: #D0C1B7;
+        
+    }
+
+ #primeirobox{
+   text-align: center;
+  background-color: #F7f7f7;
+  border-left: 20px  #FFE55C solid;
+  border-right: 20px #FFE55C solid ;
+  margin: 0%;
+  float: left;
+
+ }
+
+ #segundobox{
+    background-color: white;
+    text-align: center;
+    border-left: 20px #FFED8A  solid;
+    border-right: 20px #FFED8A solid ;
+    margin: 0%;
+    float: left;
+
+  
+  
+}
+
+.titulos{
+    margin: 0%;
+    font-weight: bold;
+    text-shadow: 0.41px 0.41px #d859bc;
+    color: #414654;
+    font-style: italic;
+    
+}
+
+.textogrande{
+    text-align: left;
+    font-weight: 500;
+    margin: 0%;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 5%;
+    padding-right: 8%; 
+}
+
+.textos{
+text-align: left;
+font-weight: 500;
+margin: 0%;
+text-align: justify;
+font-family: 'Noto Sans', sans-serif; 
+padding-left: 8%;
+padding-right: 8%;
+
+}
+
+#objetivos{
+    width: 80%;
+}
+
+.fotos{
+    width: 39%;
+    margin: 0.5%;
+
+}
+
+.logo{
+width: 25%;
+
+}
+
+.logo:hover{
+    background-color: #d8f06f;
+    
+}
+
+#minhaft{
+    width: 15%;
+    padding-right: 10%;
+    padding-bottom: 7%;
+    
+}
+
+.coluna{
+    float: left;
+    padding: 0% 5%;
+    position: relative;
+    width: 40%;
+}
+
+.um{
+
+    width: 22%;
+}
+
+.dois{
+
+    width: 36%;
+}
+
+.tres{
+
+    width: 21%;
+}
+
+.quatro{
+
+    width: 35%;
+}
+
+
+.cinco{
+
+    width: 50%;
+    
+}
+
+.seis{
+
+    width: 45%;
+    
+}
+
+.sete{
+
+    width: 55%;
+    
+}
+
+.oito{
+    width: 27%;
+}
+
+footer {
+    background-color: #FFD700;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: black;
+    font-family: 'Noto Sans', sans-serif; 
+
+}
+
+.logocreditos{
+    width: 7%;
+}
+
+.sitecreditos{
+    text-decoration:none;
+    color: black;
+    
+}
+
+.sitecreditos:hover{
+
+    background-color: #D1B000;
+
+}
+
+
+@media all and (max-width: 768px){
+    #menu {
+        visibility: hidden;
+    }
+
+    .coluna,.um,.dois,.tres,.quatro,.cinco,.seis,.sete{
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+       
+    }
+    .oito,.nove{
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        padding: 0;
+        float: none;
+        
+
+    }
+    #minhaft{
+
+        width: 30%;
+    }
+
+
+    #ODS7{
+        margin: 10%;
+    }
+   
+    #vicsitecel{
+        width: 150%;
+        position: relative;
+        text-align: center;
+        padding: 0;
+        border: 1px;
+    }
+
+    #vicsite{
+        margin-left: 0;
+        transform: translateX(-275%);
+    }
+
+
+}
+
+ 
+
